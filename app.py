@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load trained model
-with open("fake_news_svm.pkl", "rb") as f:
+with open("fake_news__svm.pkl", "rb") as f:
     model = pickle.load(f)
 
 # App title
